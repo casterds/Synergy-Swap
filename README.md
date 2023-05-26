@@ -12,13 +12,13 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Functionalities
 
-- [x] Connect wallet using your metamask 
+- [x] Connect wallet using your wallet
 - [x] Showing native balance
-- [x] Mint interface for testing purpose for AToken & BToken
-- [x] Swap interface for AToken & BToken
+- [x] Mint interface for testing purpose for XSC & USDC tokens
+- [x] Swap interface for XSC & USDC tokens
 - [x] Approving selected Token if allowance is not enough
 - [x] swapRemote function call with fee calculation
-- [x] Showing axlarscan link after swapping is successful
+
 
 ### working
 - Prettier & eslint configuration on the project
