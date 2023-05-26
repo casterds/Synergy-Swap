@@ -1,0 +1,4 @@
+export enum SUPPORT_CHAIN_IDS {
+  MUMBAI = 80001,
+  BINANCE = 97
+}
