@@ -1,0 +1,51 @@
+{
+  "name": "with-next",
+  "private": true,
+  "version": "0.0.52",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start",
+    "lint": "next lint",
+    "prettier": "prettier --write \"**/*.{ts,tsx,json,md}\"",
+    "deploy": "dfx deploy --network local",
+    "lookup-id": "dfx canister --network local id website"
+  },
+  "dependencies": {
+    "@axelar-network/axelarjs-sdk": "^0.12.6",
+    "@dfinity/agent": "^0.15.6",
+    "@dfinity/assets": "^0.15.6",
+    "@dfinity/auth-client": "^0.15.6",
+    "@dfinity/candid": "^0.15.6",
+    "@dfinity/identity": "^0.15.6",
+    "@dfinity/identity-secp256k1": "^0.15.6",
+    "@dfinity/principal": "^0.15.6",
+    "@headlessui/react": "^1.7.14",
+    "@psychedelic/plug-connect": "^0.2.0",
+    "@rainbow-me/rainbowkit": "^1.0.0",
+    "ethers": "^5.7.1",
+    "image-thumbnail": "^1.0.15",
+    "isomorphic-fetch": "^3.0.0",
+    "mmmagic": "^0.5.3",
+    "next": "^12.2.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sha256-file": "^1.0.0",
+    "viem": "~0.3.19",
+    "wagmi": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.35",
+    "@types/react": "^18.0.9",
+    "@typescript-eslint/eslint-plugin": "^5.26.0",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^7.28.0",
+    "eslint-config-next": "12.1.6",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-react": "^7.30.0",
+    "postcss": "^8.4.23",
+    "prettier": "^2.8.8",
+    "tailwindcss": "^3.3.2",
+    "typescript": "^5.0.4"
+  }
+}
