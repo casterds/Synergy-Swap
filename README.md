@@ -40,5 +40,5 @@ After deployment, you will have to look up hosted website id by running `yarn lo
 * If you are using local network, deployment link should be like this.
 http://127.0.0.1:4943/?canisterId=rrkah-fqaaa-aaaaa-aaaaq-cai
 
-Deployment on testnet : 
+# Deployment on testnet : 
 https://icscan.io/canister/vn7bk-uaaaa-aaaak-qcetq-cai 
