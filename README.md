@@ -1,4 +1,4 @@
-## Cross-chain swap using axelar
+## SynergySwap
 
 First, run the development server:
 
